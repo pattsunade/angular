@@ -1,0 +1,24 @@
+.iconos {
+    width: 30px;
+    border: none;
+}
+
+.btn-outline-light{
+    border-radius: 25px;
+    /* background-color: #222; */
+    color: black;
+    margin-bottom: 20px;
+}
+.facebook, .linkedin{
+    color: #225982;
+    
+}
+
+
+.bg-dark {
+    background-color: white!important;
+    height: 150px;
+}
+.creditos {
+    color: #222;
+}

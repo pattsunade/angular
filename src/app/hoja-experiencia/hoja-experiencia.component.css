@@ -1,0 +1,36 @@
+
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+    
+  }
+  .paddingTop {
+    padding-top: 10px;   
+}
+.iconos{
+  font-size: 40px;
+}
+.move{
+  display: inline-block;
+  
+  margin-left: 25px;
+  padding-top: 15px;
+  font-size: 15px;
+  color: #757575!important;
+}
+.font{
+  font-size: 15px;
+  color: #757575!important;
+  margin-left: 20px;
+
+
+}
+
+.año{
+  display: inline-block;
+  margin-left: 10px;
+ color: blueviolet;
+  font-size: 15px;
+  font-weight: bolder;
+}
