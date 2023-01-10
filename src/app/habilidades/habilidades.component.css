@@ -1,0 +1,32 @@
+.paddingTop {
+    padding-top: 10px;
+}
+.space{
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+.habilidades{
+    display: inline-block;
+    margin-left: 32%;
+    color: #757575!important;
+   font-size: 25px;
+   font-weight: 500;
+   margin-top: 35px;
+  }
+  .progress-bar{
+    background-color: #23FC93;
+}
+
+.progress{
+    margin-bottom: 5%;
+}
+
+.move{
+    color: #757575;
+}
+.verMas .mat-flat-button.mat-primary, .mat-raised-button.mat-primary, .mat-fab.mat-primary, .mat-mini-fab.mat-primary {
+    background-color: #f93154;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+

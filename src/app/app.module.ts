@@ -43,6 +43,7 @@ import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 import { BootstrapIconsModule } from 'ng-bootstrap-icons';
 import { allIcons } from 'ng-bootstrap-icons/icons';
 import { ExperienciasComponent } from './experiencias/experiencias.component';
+import { HabilidadesComponent } from './habilidades/habilidades.component';
 
 
 @NgModule({
@@ -53,6 +54,7 @@ import { ExperienciasComponent } from './experiencias/experiencias.component';
     HojaExperienciaComponent,
     FooterComponent,
     ExperienciasComponent,
+    HabilidadesComponent,
     
   ],
   imports: [

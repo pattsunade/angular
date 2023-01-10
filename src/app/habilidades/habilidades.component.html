@@ -1,0 +1,79 @@
+<mat-card-content class="paddingTop">
+    <div class="exaple-sidenav-content">
+        <mat-card class="example-card">
+            <mat-card-content class="space">
+                <div  class="habilidades">
+                    <mat-icon color="primary" class="iconSkills">settings</mat-icon>Skills
+                </div>
+                <mat-list class="lista2">
+                    <mat-list-item role="listitem"  class="fs-6 move">JavaScript</mat-list-item>
+                    <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 60%"></div>
+                    </div>
+                    <mat-list-item role="listitem"  class="fs-6 move">Angular</mat-list-item>
+                    <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 60%"></div>
+                    </div>
+                    <mat-list-item role="listitem"  class="fs-6 move">Jquery-Ajax</mat-list-item>
+                    <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%"></div>
+                    </div>                        
+                    <mat-list-item role="listitem"  class="fs-6 move">Java</mat-list-item>
+                    <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 40%"></div>
+                    </div>
+                    <mat-list-item role="listitem"  class="fs-6 move">Spring Boot</mat-list-item>
+                    <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 40%"></div>
+                    </div>
+                    <mat-list-item role="listitem"  class="fs-6 move">MySQL-PostgreSQL</mat-list-item>
+                    <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 40%"></div>
+                    </div>
+                    <mat-list-item role="listitem"  class="fs-6 move">Bootstrap</mat-list-item>
+                    <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 70%"></div>
+                    </div>
+                    <mat-list-item role="listitem"  class="fs-6 move">Html</mat-list-item>
+                    <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80%"></div>
+                    </div>
+                    <mat-list-item role="listitem"  class="fs-6 move">Css</mat-list-item>
+                    <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80%"></div>
+                    </div> 
+                </mat-list>
+                <!-- BOTON VER MAS -->
+                <div class="" *ngIf="showMe" style="filter:drop-shadow(5px 5px 10px #888)">
+                    <mat-icon color="primary" style="margin-top: 30px;">visibility</mat-icon>
+                <div  class=" info" >
+                    FrontEnd
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="60">75%</div>
+                </div>
+                <mat-icon color="primary">dvr</mat-icon>
+                <div  class=" info" >
+                    Backend
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">55%</div>
+                </div>
+
+                <mat-icon color="primary" style="margin-top: 30px;">storage</mat-icon>
+                <div  class=" info" >
+                    Base de datos
+                </div>
+                <div class="progress" style="margin-bottom: 20px;">
+                    <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="60">30%</div>
+                </div>
+                </div>
+                <div class="example-button-row text-center verMas ">
+                    <button (click)="show()" *ngIf="hideMe" mat-raised-button color="primary" class="btnShow" >Ver Mas </button>
+                    <button (click)="hide()" *ngIf="showMe" mat-raised-button color="primary" >Ver Menos </button>
+                </div>
+                <!--FIN DEL BOTON VER MAS-->
+            </mat-card-content> 
+        </mat-card>
+    </div>
+</mat-card-content>
